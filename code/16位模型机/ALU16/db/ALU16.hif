@@ -1,0 +1,65 @@
+Version 9.0 Build 132 02/25/2009 SJ Full Version
+10
+821
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+ALU16
+# storage
+db|ALU16.(0).cnf
+db|ALU16.(0).cnf
+# case_insensitive
+# source_file
+ALU16.bdf
+8aa116ce77278b523ee4dbafbcdb540
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+74181
+# storage
+db|ALU16.(1).cnf
+db|ALU16.(1).cnf
+# case_insensitive
+# source_file
+c:|altera|90copy2|quartus|libraries|others|maxplus2|74181.bdf
+5a7a42864d75db2f39a1f2da31e3e53
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+74181:inst4
+74181:inst3
+74181:inst
+74181:inst1
+}
+# macro_sequence
+
+# end
+# complete
+

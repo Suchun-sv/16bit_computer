@@ -1,0 +1,173 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 't4:timing|inst1'
+Slack : -12.294
+TNS   : -3815.840
+
+Type  : Slow 1200mV 85C Model Setup 't4:timing|inst2'
+Slack : -10.860
+TNS   : -681.130
+
+Type  : Slow 1200mV 85C Model Setup 'lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_t741:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -9.755
+TNS   : -1470.051
+
+Type  : Slow 1200mV 85C Model Setup 't4:timing|inst'
+Slack : -9.215
+TNS   : -15.698
+
+Type  : Slow 1200mV 85C Model Setup 'CLK1'
+Slack : 2.041
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLK1'
+Slack : -6.000
+TNS   : -18.576
+
+Type  : Slow 1200mV 85C Model Hold 'lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_t741:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -4.639
+TNS   : -639.864
+
+Type  : Slow 1200mV 85C Model Hold 't4:timing|inst2'
+Slack : -1.572
+TNS   : -25.264
+
+Type  : Slow 1200mV 85C Model Hold 't4:timing|inst'
+Slack : -0.950
+TNS   : -0.950
+
+Type  : Slow 1200mV 85C Model Hold 't4:timing|inst1'
+Slack : 0.557
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 't4:timing|inst1'
+Slack : -8.503
+TNS   : -36.112
+
+Type  : Slow 1200mV 85C Model Recovery 'lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_t741:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : 0.405
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_t741:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -3.441
+TNS   : -56.831
+
+Type  : Slow 1200mV 85C Model Removal 't4:timing|inst1'
+Slack : 2.904
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 't4:timing|inst1'
+Slack : -11.108
+TNS   : -3444.211
+
+Type  : Slow 1200mV 0C Model Setup 't4:timing|inst2'
+Slack : -9.730
+TNS   : -610.786
+
+Type  : Slow 1200mV 0C Model Setup 'lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_t741:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -8.826
+TNS   : -1312.216
+
+Type  : Slow 1200mV 0C Model Setup 't4:timing|inst'
+Slack : -8.144
+TNS   : -13.839
+
+Type  : Slow 1200mV 0C Model Setup 'CLK1'
+Slack : 1.989
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLK1'
+Slack : -5.535
+TNS   : -17.091
+
+Type  : Slow 1200mV 0C Model Hold 'lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_t741:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -4.248
+TNS   : -583.465
+
+Type  : Slow 1200mV 0C Model Hold 't4:timing|inst2'
+Slack : -1.457
+TNS   : -23.944
+
+Type  : Slow 1200mV 0C Model Hold 't4:timing|inst'
+Slack : -0.869
+TNS   : -0.869
+
+Type  : Slow 1200mV 0C Model Hold 't4:timing|inst1'
+Slack : 0.517
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 't4:timing|inst1'
+Slack : -7.504
+TNS   : -32.192
+
+Type  : Slow 1200mV 0C Model Recovery 'lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_t741:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_t741:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -3.127
+TNS   : -50.158
+
+Type  : Slow 1200mV 0C Model Removal 't4:timing|inst1'
+Slack : 2.647
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 't4:timing|inst1'
+Slack : -6.589
+TNS   : -2068.089
+
+Type  : Fast 1200mV 0C Model Setup 't4:timing|inst2'
+Slack : -5.922
+TNS   : -353.135
+
+Type  : Fast 1200mV 0C Model Setup 'lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_t741:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -5.368
+TNS   : -785.048
+
+Type  : Fast 1200mV 0C Model Setup 't4:timing|inst'
+Slack : -4.688
+TNS   : -7.746
+
+Type  : Fast 1200mV 0C Model Setup 'CLK1'
+Slack : 1.327
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLK1'
+Slack : -3.476
+TNS   : -10.920
+
+Type  : Fast 1200mV 0C Model Hold 'lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_t741:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -2.785
+TNS   : -401.174
+
+Type  : Fast 1200mV 0C Model Hold 't4:timing|inst2'
+Slack : -1.258
+TNS   : -32.306
+
+Type  : Fast 1200mV 0C Model Hold 't4:timing|inst'
+Slack : -0.581
+TNS   : -0.581
+
+Type  : Fast 1200mV 0C Model Hold 't4:timing|inst1'
+Slack : -0.047
+TNS   : -0.047
+
+Type  : Fast 1200mV 0C Model Recovery 't4:timing|inst1'
+Slack : -4.218
+TNS   : -16.418
+
+Type  : Fast 1200mV 0C Model Recovery 'lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_t741:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : 0.484
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'lpm_rom0:inst|altsyncram:altsyncram_component|altsyncram_t741:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -2.056
+TNS   : -35.654
+
+Type  : Fast 1200mV 0C Model Removal 't4:timing|inst1'
+Slack : 1.295
+TNS   : 0.000
+
+------------------------------------------------------------

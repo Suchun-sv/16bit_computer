@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Jun 18 16:33:06 2020
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : Computer
+Top-level Entity Name : Computer
+Family : Cyclone III
+Device : EP3C80F484C6
+Timing Models : Final
+Total logic elements : 815 / 81,264 ( 1 % )
+    Total combinational functions : 719 / 81,264 ( < 1 % )
+    Dedicated logic registers : 270 / 81,264 ( < 1 % )
+Total registers : 270
+Total pins : 172 / 296 ( 58 % )
+Total virtual pins : 0
+Total memory bits : 1,050,112 / 2,810,880 ( 37 % )
+Embedded Multiplier 9-bit elements : 0 / 488 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

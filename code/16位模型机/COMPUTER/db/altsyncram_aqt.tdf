@@ -1,0 +1,45 @@
+--altsyncram CBX_DECLARE_ALL_CONNECTED_PORTS="OFF" CLOCK_ENABLE_INPUT_A="BYPASS" CLOCK_ENABLE_OUTPUT_A="BYPASS" DEVICE_FAMILY="Stratix" ENABLE_RUNTIME_MOD="NO" NUMWORDS_A=256 OPERATION_MODE="SINGLE_PORT" OUTDATA_ACLR_A="NONE" OUTDATA_REG_A="CLOCK0" WIDTH_A=8 WIDTH_BYTEENA_A=1 WIDTHAD_A=8 address_a clock0 data_a q_a wren_a
+--VERSION_BEGIN 4.1 cbx_altsyncram 2004:06:23:18:19:30:SJ cbx_cycloneii 2004:05:18:11:27:16:SJ cbx_lpm_add_sub 2004:06:23:12:24:04:SJ cbx_lpm_compare 2004:04:12:17:30:12:SJ cbx_lpm_decode 2004:03:10:10:44:06:SJ cbx_lpm_mux 2004:03:10:10:50:34:SJ cbx_mgl 2004:06:17:17:30:06:SJ cbx_stratix 2004:04:28:15:20:14:SJ cbx_stratixii 2004:05:18:11:28:28:SJ cbx_util 2004:03:29:17:03:30:SJ  VERSION_END
+
+
+--  Copyright (C) 1988-2002 Altera Corporation
+--  Any  megafunction  design,  and related netlist (encrypted  or  decrypted),
+--  support information,  device programming or simulation file,  and any other
+--  associated  documentation or information  provided by  Altera  or a partner
+--  under  Altera's   Megafunction   Partnership   Program  may  be  used  only
+--  to program  PLD  devices (but not masked  PLD  devices) from  Altera.   Any
+--  other  use  of such  megafunction  design,  netlist,  support  information,
+--  device programming or simulation file,  or any other  related documentation
+--  or information  is prohibited  for  any  other purpose,  including, but not
+--  limited to  modification,  reverse engineering,  de-compiling, or use  with
+--  any other  silicon devices,  unless such use is  explicitly  licensed under
+--  a separate agreement with  Altera  or a megafunction partner.  Title to the
+--  intellectual property,  including patents,  copyrights,  trademarks,  trade
+--  secrets,  or maskworks,  embodied in any such megafunction design, netlist,
+--  support  information,  device programming or simulation file,  or any other
+--  related documentation or information provided by  Altera  or a megafunction
+--  partner, remains with Altera, the megafunction partner, or their respective
+--  licensors. No other licenses, including any licenses needed under any third
+--  party's intellectual property, are provided herein.
+
+
+
+--synthesis_resources = 
+SUBDESIGN altsyncram_aqt
+( 
+	address_a[7..0]	:	input;
+	clock0	:	input;
+	data_a[7..0]	:	input;
+	q_a[7..0]	:	output;
+	wren_a	:	input;
+) 
+
+BEGIN 
+	ASSERT (0) 
+	REPORT "Can't use value BYPASS of parameter CLOCK_ENABLE_INPUT_A with device family Stratix in altsyncram megafunction"
+	SEVERITY ERROR;
+	ASSERT (0) 
+	REPORT "Can't use value BYPASS of parameter CLOCK_ENABLE_OUTPUT_A with device family Stratix in altsyncram megafunction"
+	SEVERITY ERROR;
+END;
+--ERROR FILE

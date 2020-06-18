@@ -1,0 +1,41 @@
+GED
+
+	Undo Commands
+	     1.	Properties
+	     2.	Properties
+	     3.	Properties
+	     4.	Properties
+	     5.	Properties
+	     6.	Properties
+	     7.	Properties
+	     8.	Resize
+	     9.	Properties
+	    10.	Properties
+	    11.	Properties
+	    12.	Insert Node
+	    13.	Move
+	    14.	Move
+	    15.	Move
+	    16.	Move
+	    17.	Move
+	    18.	Delete Insert
+	    19.	Move
+	    20.	Paste
+
+
+WED
+
+	Undo Commands
+	     1.	Delete Node or Bus
+	     2.	Insert Node or Bus
+	     3.	Move Node(s)
+	     4.	Insert Node or Bus
+	     5.	Delete Node or Bus
+
+
+RPW
+
+	Undo Commands
+	     1.	||Simulation Report||Simulator||Simulation Waveforms
+
+

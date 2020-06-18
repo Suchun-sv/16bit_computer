@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Computer">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|lpm_mux1:inst15|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_78e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|lpm_mux1:inst28|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_78e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|BUSMUX:inst8|LPM_MUX:$00000" CBX_FILE_NAME="mux_krc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|lpm_mux1:inst29|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_78e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|lpm_rom0:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_t741.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|lpm_counter0:inst7|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_h6j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|lpm_mux1:inst31|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_78e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|lpm_mux6:inst34|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_v7e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Computer|lpm_ram_dq0:InstructionsRAM|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_jad1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
