@@ -9,12 +9,12 @@
 # tool 使用说明
 ## 建议在jupyter环境下使用
 ### 导入
-	```python
+```python
 		from fuckhex import FuckHex as parseHex
 		a = parseHex()
-	```
+```
 ### code2hex(汇编代码 to hex 文件)
-	```python
+```python
 code = """
 IN R1
 IN R2
@@ -33,7 +33,7 @@ OUT R2
 HALT 
 """
 a.string2hex(code,r"code.hex")
-	```
+```
 > IN R1 : 1040
 > IN R2 : 1080
 > ADD R4 R1 R2 : 250A
