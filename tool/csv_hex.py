@@ -1,8 +1,15 @@
+# code:utf-8
+# Author: 杨贝宁
+# Time:2020.0609
+# copyRight: free to edit
+import argparse 
+import os
 import sys
 import os
 import pandas as pd
 import json
-class FuckHex:
+
+class ParseHex:
     """
     读写ROM HEX文件(quartus HEX文件地址和IntelHex文件的规定不太一样)
     """
@@ -247,3 +254,52 @@ class FuckHex:
         d_doc["UA5-UA0"]="{:02o}".format(int(d['UA5-UA0'],2))
         self.d_doc = d_doc
         return pd.DataFrame(d_doc,index=[index])
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--sourceFile",'-s',help=".hex 或者.csv 文件路径")
+    parser.add_argument('--targetFile','-t',help='.csv 或者.hex 文件路径')
+    a = ParseHex()
+    
+    args = parser.parse_args()
+    if not args.sourceFile:
+        if not args.targetFile:
+            args.sourceFile = input("请输入源文件路径(以hex或者以csv结尾):")
+            args.targetFile = input("请输入目标文件路径(以csv或者以hex结尾):")
+            
+    if not args.targetFile:
+        (filepath,tempfilename) = os.path.split(args.sourceFile)
+        (filename,extension) = os.path.splitext(tempfilename)
+        if args.sourceFile.endswith('.csv'):
+            args.targetFile = os.path.join(filepath,filename+".hex")
+        else:
+            args.targetFile = os.path.join(filepath,filename+".csv")
+        
+    
+    
+    if not os.path.exists(args.sourceFile):
+        print("输入文件路径不存在或路径错误")
+        return 
+        
+    if args.sourceFile.endswith(".csv"):
+        if not args.targetFile.endswith(".hex"):
+            print("请在输出文件处指定.hex文件路径")
+        else:
+            a.csv2hex(args.sourceFile,args.targetFile)
+            print("create file correct! please check \"{}\"".format(args.targetFile))
+    
+    elif args.sourceFile.endswith(".hex"):
+        if not args.targetFile.endswith(".csv"):
+            print("请在输出文件处指定.csv文件路径")
+        else:
+            a.loadHex(args.sourceFile)
+            a().to_csv(args.targetFile)
+            print("success! please check \"{}\"".format(args.targetFile))
+    else:
+        print("cannot find input")
+    
+
+if __name__ == "__main__":
+    main()
+        
+    
